@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    border: 1px solid  lightgray;
+    height: fit-content;
+    padding: 50px 35px;
+    margin: 35px auto;
+    border-radius: 10px;
+}
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    border: 0px solid  blue;
+}
+.headerFont{
+    font-size: 25px; 
+}
+.header_2_container{
+    padding: 25px 0px;
+}
+.header_2{
+    font-size: 25px; 
+    font-weight: 380;
+    
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    //padding: 35px 0px;
+}
+.email{
+    width: 520px;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+}
+.passwordHint{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    padding: 0px 10px;
+}
+.checkBox{
+    display: flex;
+    padding: 25px 0px;
+}
+.showpass{
+    padding-left: 12px;
+    color: grey;
+}
+.box{
+    width: 18px ;
+    height: 18px;
+    margin-top: 0px;
+}
+.next{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.button{
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+    background-color: var(--gm-colortextbutton-ink-color, #1a73e8);
+    color: white;
+    cursor: pointer;
+}
+.signin{
+    cursor: pointer;
+    color: var(--gm-colortextbutton-ink-color, #1a73e8);
+    text-decoration: none;
+}
+.img{
+    box-sizing: content-box;
+}
+.right-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.right-div-2{
+    padding: 0px 20px;
+    text-align: center;
+}
+
+:host ::ng-deep
+.mat-form-field-infix{
+    width: 230px;
+    
+
+}
